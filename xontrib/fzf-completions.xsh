@@ -80,7 +80,7 @@ def fzf_insert_file(event, dirs_only=False):
             env['FZF_DEFAULT_COMMAND'] = $fzf_find_command
     if 'FZF_DEFAULT_OPTS' in ${...}:
         env['FZF_DEFAULT_OPTS'] = $FZF_DEFAULT_OPTS
-    choice = subprocess.run([get_fzf_binary_path(), '-m', '--reverse', '--height=40%'], stdout=subprocess.PIPE, universal_newlines=True, env=env).stdout.strip()
+    choice = subprocess.run([get_fzf_binary_path(), '--multi', '--reverse'], stdout=subprocess.PIPE, universal_newlines=True, env=env).stdout.strip()
 
     if cwd:
         os.chdir(cwd)
