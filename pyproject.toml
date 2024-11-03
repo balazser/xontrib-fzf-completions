@@ -6,10 +6,10 @@ requires-python = ">=3.8"
 license = { text = "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" }
 keywords = ["shell", "xonsh", "xontrib"]
 authors = [
-    { name = "doronz88", email = "doron88@gmail.com" }
+    { name = "Balazs Erdos", email = "erdos.balazs@live.com" }
 ]
 maintainers = [
-    { name = "doronz88", email = "doron88@gmail.com" }
+    { name = "Balazs Erdos", email = "erdos.balazs@live.com" }
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -25,8 +25,8 @@ classifiers = [
 dynamic = ["dependencies", "version"]
 
 [project.urls]
-"Homepage" = "https://github.com/doronz88/xontrib-fzf-completions"
-"Bug Reports" = "https://github.com/doronz88/xontrib-fzf-completions/issues"
+"Homepage" = "https://github.com/balazser/xontrib-fzf-completions"
+"Bug Reports" = "https://github.com/balazser/xontrib-fzf-completions/issues"
 
 [tool.setuptools]
 package-data = { "xontrib_fzf_completions" = ['xontrib/*.xsh'] }
